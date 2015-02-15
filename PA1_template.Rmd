@@ -1,10 +1,12 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+title: 'Reproducible Research: Peer Assessment 1'
 author: "Kristynn Sullivan"
 output: html_document
-keep_md: true
+keep_md: yes
 ---
-
+```{r global_options}
+knitr::opts_chunk$set(fig.path='Figs/')
+```
 
 ## Loading and preprocessing the data
 
